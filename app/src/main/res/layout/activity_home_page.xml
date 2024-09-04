@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2B53"
+    tools:ignore="ExtraText">
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tic"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="70dp"
+        android:id="@+id/tv_tic"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tac"
+        android:textStyle="bold"
+        android:textSize="70dp"
+        android:id="@+id/tv_tac"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toe"
+        android:textStyle="bold"
+        android:textSize="70dp"
+        android:id="@+id/tv_toe"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/player_vs_player"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:id="@+id/btn_player_vs_player"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/player_vs_computer"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/baseline_computer_24"
+        android:id="@+id/btn_player_vs_computer"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/setting"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/baseline_settings_24"
+        android:id="@+id/btn_save_settings"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp" />
+</LinearLayout>

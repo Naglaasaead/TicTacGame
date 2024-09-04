@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#2A2B53"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    android:layout_height="match_parent"
+    tools:context=".AddPlayers">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/tv_enterPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/enter_your_player"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <!-- Language Selection Spinner -->
+
+
+    <!-- Player One Input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/black_blue"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/close"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/player_one_icon"/>
+        <EditText
+            android:inputType="text"
+            android:maxLines="1"
+            android:id="@+id/ed_pone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/edittext_no_underline"
+            android:hint="@string/player_one"
+            android:textColorHint="@color/light_white"/>
+    </LinearLayout>
+
+    <!-- Player Two Input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/black_blue"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/o"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/player_two_icon"/>
+        <EditText
+            android:inputType="text"
+            android:maxLines="1"
+            android:id="@+id/ed_ptwo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/edittext_no_underline"
+            android:hint="@string/player_two"
+            android:textColorHint="@color/light_white"/>
+    </LinearLayout>
+
+    <!-- Start Game Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_stgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/start_game"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_black_blue1000"/>
+</LinearLayout>

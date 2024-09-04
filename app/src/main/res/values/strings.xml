@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Tic Tac Game</string>
+    <string name="player_one_icon">Player One Icon</string>
+    <string name="player_two_icon">Player Two Icon</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="player_one_name">Player 1</string>
+    <string name="player_two_name">Player 2</string>
+    <string name="player_vs_player">Player vs Player</string>
+    <string name="player_vs_computer">Player vs Computer</string>
+    <string name="start_game">Start Game</string>
+    <string name="player_one_wins">Player 1 Wins!</string>
+    <string name="player_two_wins">Player 2 Wins!</string>
+    <string name="player_one_won">%1$s has won the match</string>
+    <string name="player_two_won">%1$s has won the match</string>
+    <string name="draw">It is a draw</string>
+    <string name="enter_your_player">Enter Your Player</string>
+    <string name="enter_player_one_name">Please enter Player One\'s name</string>
+    <string name="enter_player_two_name">Please enter Player Two\'s name</string>
+    <string name="computer">Computer</string>
+    <string name="player">Player</string>
+    <string name="select_symbol">Please select a symbol</string>
+    <string name="you_chose">You chose</string>
+    <string name="message_here">Message Here</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="background_music">Background Music</string>
+    <string name="confirm">Confirm</string>
+    <string name="enter_player_one_names">Enter Player One Name</string>
+    <string name="enter_player_two_names">Enter Player Two Name</string>
+    <string name="start_again">Start Again</string>
+    <string name="tic">TIC</string>
+    <string name="tac">TAC</string>
+    <string name="toe">TOE</string>
+    <string name="setting">Setting</string>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>العربيه</item>
+        <item>Français</item>
+        <item>Español</item>
+        <item>Deutsch</item>
+    </string-array>
+</resources>

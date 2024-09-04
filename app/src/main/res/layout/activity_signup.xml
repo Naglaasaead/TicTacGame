@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2B53"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#2A2B53"
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="190dp">
+
+            <EditText
+                android:textColor="#000000"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_email"
+                android:background="@drawable/lavander_border"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Email"
+
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:drawableStart="@drawable/baseline_lock_24"
+                android:id="@+id/signup_pass"
+                android:background="@drawable/lavander_border"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableEnd="@drawable/baseline_nearby_off_24"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:textColor="#000000"
+                android:id="@+id/signup_confirmpass"
+                android:background="@drawable/lavander_border"
+                android:layout_marginTop="30dp"
+                android:padding="8dp"
+                android:hint="Confirm Password"
+                android:drawableStart="@drawable/baseline_password_24"
+                android:inputType="textPassword"
+                android:drawableEnd="@drawable/baseline_nearby_off_24"
+                android:drawablePadding="8dp"/>
+
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="70dp"
+                android:text="Sign Up"
+                android:textSize="18dp"
+                android:id="@+id/btn_signup"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_login"
+                android:text="Already a user? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

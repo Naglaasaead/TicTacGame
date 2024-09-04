@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Symbol"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSymbols"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+        <RadioButton
+            android:id="@+id/radio_o"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switch_background_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Music" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+</LinearLayout>

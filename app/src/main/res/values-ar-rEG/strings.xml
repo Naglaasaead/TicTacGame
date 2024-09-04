@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">لعبة إكس أو</string>
+    <string name="player_one_icon">رمز اللاعب الأول</string>
+    <string name="player_two_icon">رمز اللاعب الثاني</string>
+    <string name="player_one">اللاعب الأول</string>
+    <string name="player_two">اللاعب الثاني</string>
+    <string name="player_one_name">اللاعب 1</string>
+    <string name="player_two_name">اللاعب 2</string>
+    <string name="player_vs_player">اللاعب ضد اللاعب</string>
+    <string name="player_vs_computer">اللاعب ضد الكمبيوتر</string>
+    <string name="start_game">ابدأ اللعبة</string>
+    <string name="player_one_wins">اللاعب 1 فاز!</string>
+    <string name="player_two_wins">اللاعب 2 فاز!</string>
+    <string name="player_one_won">%1$s فاز بالمباراة</string>
+    <string name="player_two_won">%1$s فاز بالمباراة</string>
+    <string name="draw">التعادل</string>
+    <string name="enter_your_player">أدخل اسم لاعبك</string>
+    <string name="enter_player_one_name">يرجى إدخال اسم اللاعب الأول</string>
+    <string name="enter_player_two_name">يرجى إدخال اسم اللاعب الثاني</string>
+    <string name="computer">الكمبيوتر</string>
+    <string name="player">اللاعب</string>
+    <string name="select_symbol">يرجى اختيار رمز</string>
+    <string name="you_chose">أنت اخترت</string>
+    <string name="message_here">الرسالة هنا</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="background_music">الموسيقى الخلفية</string>
+    <string name="confirm">تأكيد</string>
+    <string name="enter_player_one_names">أدخل اسم اللاعب الأول</string>
+    <string name="enter_player_two_names">أدخل اسم اللاعب الثاني</string>
+    <string name="start_again">اعاده اللعب</string>
+    <string name="tic">تيك</string>
+    <string name="tac">تاك</string>
+    <string name="toe">تو</string>
+    <string name="setting">الإعدادات</string>
+
+
+    <string-array name="languages_array">
+        <item>الإنجليزية</item>
+        <item>العربية</item>
+        <item>الفرنسية</item>
+        <item>الإسبانية</item>
+        <item>الألمانية</item>
+    </string-array>
+</resources>

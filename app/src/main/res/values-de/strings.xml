@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Tic Tac Spiel</string>
+    <string name="player_one_icon">Symbol Spieler Eins</string>
+    <string name="player_two_icon">Symbol Spieler Zwei</string>
+    <string name="player_one">Spieler Eins</string>
+    <string name="player_two">Spieler Zwei</string>
+    <string name="player_one_name">Spieler 1</string>
+    <string name="player_two_name">Spieler 2</string>
+    <string name="player_vs_player">Spieler gegen Spieler</string>
+    <string name="player_vs_computer">Spieler gegen Computer</string>
+    <string name="start_game">Spiel Starten</string>
+    <string name="player_one_wins">Spieler 1 gewinnt!</string>
+    <string name="player_two_wins">Spieler 2 gewinnt!</string>
+    <string name="player_one_won">%1$s hat das Spiel gewonnen</string>
+    <string name="player_two_won">%1$s hat das Spiel gewonnen</string>
+    <string name="draw">Es ist ein Unentschieden</string>
+    <string name="enter_your_player">Geben Sie Ihren Spieler ein</string>
+    <string name="enter_player_one_name">Bitte Namen des Spielers Eins eingeben</string>
+    <string name="enter_player_two_name">Bitte Namen des Spielers Zwei eingeben</string>
+    <string name="computer">Computer</string>
+    <string name="player">Spieler</string>
+    <string name="select_symbol">Bitte wählen Sie ein Symbol</string>
+    <string name="you_chose">Sie haben gewählt</string>
+    <string name="message_here">Nachricht hier</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="background_music">Hintergrundmusik</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="enter_player_one_names">Namen des Spielers Eins eingeben</string>
+    <string name="enter_player_two_names">Namen des Spielers Zwei eingeben</string>
+    <string name="start_again">Erneut starten</string>
+
+
+        <string name="tic">TIC</string>
+        <string name="tac">TAC</string>
+        <string name="toe">ZEH</string>
+        <string name="setting">Einstellungen</string>
+
+
+    <string-array name="languages_array">
+        <item>Englisch</item>
+        <item>Arabisch</item>
+        <item>Französisch</item>
+        <item>Spanisch</item>
+        <item>Deutsch</item>
+    </string-array>
+</resources>
